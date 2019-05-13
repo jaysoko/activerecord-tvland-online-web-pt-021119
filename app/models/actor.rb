@@ -9,8 +9,7 @@ def full_name
 end
 
 def list_roles
-  "#{self.characters.first.name}"
-  "#{self.shows.first.name}"
+  self.characters.collect {|c| "#{c.name} - #{Show.find(c.id).name}"}
 end
 
 end
