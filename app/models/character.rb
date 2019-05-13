@@ -7,4 +7,7 @@ belongs_to :show
 def build_network
 end
 
+def say_that_thing_you_say
+end
+
 end
