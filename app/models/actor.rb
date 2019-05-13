@@ -9,7 +9,6 @@ def full_name
 end
 
 def list_roles
-  "#{
   binding.pry
 end
 
