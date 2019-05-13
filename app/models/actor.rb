@@ -9,7 +9,7 @@ def full_name
 end
 
 def list_roles
-  "#{self.characters.collect {|x| x.name}.first self.shows.collect {|x| x.name}.first"
+  "#{self.characters.collect {|x| x.name}.first self.shows.collect {|x| x.name}.first}"
 end
 
 end
