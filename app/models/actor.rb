@@ -10,6 +10,7 @@ end
 
 def list_roles
   self
+  binding.pry
 end
 
 end
