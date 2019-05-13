@@ -33,6 +33,7 @@ ActiveRecord::Schema.define(version: 5) do
     t.string "name"
     t.string "day"
     t.string "season"
+    t.string "genre"
     t.integer "network_id"
   end
 
