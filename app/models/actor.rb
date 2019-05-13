@@ -9,6 +9,7 @@ def full_name
 end
 
 def list_roles
+  "#{self.characters.first.name}
   binding.pry
 end
 
