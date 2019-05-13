@@ -4,7 +4,8 @@ belongs_to :actor
 belongs_to :show
 
 
-def build_network
+def self.build_network
+
 end
 
 def say_that_thing_you_say
