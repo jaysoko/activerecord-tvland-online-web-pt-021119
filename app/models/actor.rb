@@ -9,7 +9,8 @@ def full_name
 end
 
 def list_roles
-  "#{self.characters.collect {|x| x.name} self.shows.collect {|x| x.name}}"
+  "#{
+  binding.pry
 end
 
 end
