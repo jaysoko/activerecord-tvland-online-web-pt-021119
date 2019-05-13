@@ -9,7 +9,7 @@ def full_name
 end
 
 def list_roles
-  self
+  
   binding.pry
 end
 
