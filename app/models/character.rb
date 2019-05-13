@@ -4,4 +4,7 @@ belongs_to :actor
 belongs_to :show
 
 
+def build_network
+end
+
 end
